@@ -1,6 +1,6 @@
-# RomaJav
+# Planing
 
-O RomaJav é um sistema web para a conversao de algorismos romanos em numeros. Ou o contrario.
+<i>"No caos do desconhecido, o planejamento é a luz que ilumina o caminho à frente." - Desconhecido</i>
 
 ## structure
 
@@ -45,3 +45,7 @@ O RomaJav é um sistema web para a conversao de algorismos romanos em numeros. O
  - converter inteiro para romano
 
  - fazer operacoes aritmeticas entre romanos e inteiros
+
+ ## classes
+
+ <a href="./UML">Acesse o diagrama</a>
