@@ -1,8 +1,11 @@
+package com.romajav.api.models;
+
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
-    Map<String, Integer> numerals = new HashMap<String, Integer>() {{
+public class RomanToInteger {
+
+    private static Map<String, Integer> numerals = new HashMap<String, Integer>() {{
         put("M", 1000);
         put("CM", 900);
         put("D", 500);
@@ -18,7 +21,7 @@ class Solution {
         put("I", 1);
     }};
 
-    public int romanToInt(String roman) {
+    public static Integer convert(String roman){
         int integer = 0;
         int cont = 0;
 
@@ -42,4 +45,5 @@ class Solution {
         }
         return integer;
     }
+
 }
