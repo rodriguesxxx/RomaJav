@@ -6,7 +6,7 @@ public class Entry {
     public String getEntry(){
         return this.entry;
     }
-
+ 
     public void setEntry(String entry){
         this.entry = entry;
     }
